@@ -9,7 +9,7 @@ func main() {
 variable := TypeName{fields: value}
 //to print the values
 fmt.Println(variable.fields)
-
+}
 //Struct with methods 
 
 type TypeName struct {
@@ -26,4 +26,4 @@ variable := TypeName{fields: value}
 //to print the values
 fmt.Println(variable.fields)
 
-
+}
