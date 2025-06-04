@@ -22,8 +22,9 @@ func (receiver TypeName) methodName() datatype/void {
 
 func main() {
 
-variable := TypeName{fields: value}
+variable := TypeName{fields: value} // which should always point to the TypeName as we are directly assigning the value to the fields declared in the Struct
+ 
 //to print the values
-fmt.Println(variable.fields)
+fmt.Println(variable.method) while printing, you can always call the method where the action is completed via the return statement. 
 
 }
