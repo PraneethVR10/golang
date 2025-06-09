@@ -39,7 +39,7 @@ return a, nil
 
 // error handling using a function 
 
-func add (int a,b) (int, error) --> a and b are the arguments for the add() function and (int, error) are the return type for the value and the error
+func add (int a,b) (int, error) --> a and b are the arguments for the add() function and (int, error) are the return type for the add () function and the error
 {
 	if a+b != 100 {
 		return 0, errors.New("Use a number that adds to 100")
