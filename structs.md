@@ -6,9 +6,9 @@ fields datatype/ void
 
 func main() {
 
-variable := TypeName{fields: value}
+single_variable := TypeName{fields: value}
 //to print the values
-fmt.Println(variable.fields)
+fmt.Println(single_variable.fields)
 }
 //Struct with methods 
 
