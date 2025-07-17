@@ -6,7 +6,7 @@ fields datatype/ void
 
 func main() {
 
-single_variable := TypeName_struct{fields: value}
+single_variable := TypeName_struct{fields: value} // or you could just use TypeName_struct{values} - this is automatically assing the values to the fields based on the number of fields and values used. 
 //to print the values
 fmt.Println(single_variable.fields)
 }
